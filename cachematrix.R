@@ -15,12 +15,12 @@ makeCacheMatrix <- function(x = matrix()) {
                
 }
 get<-function()x
-set Inverse<-function(inverse) inv <<-inverse
-get Inverse<-function() inv
+setInverse<-function(inverse) inv <<-inverse
+getInverse<-function() inv
 list(set=set,
      get=get,
-     setinverse=setinverse
-     getinverse=getinverse
+     setinverse=setinverse,
+     getinverse=getinverse)
 }
 
 ## This function computes the inverse of the special "matrix" created by 
